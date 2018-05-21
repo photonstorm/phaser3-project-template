@@ -1,10 +1,13 @@
 import 'phaser';
 
+console.log('app location');
+
 var config = {
     type: Phaser.AUTO,
     parent: 'phaser-example',
     width: 800,
     height: 600,
+    transparent: true,
     scene: {
         preload: preload,
         create: create
